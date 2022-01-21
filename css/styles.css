@@ -1,0 +1,97 @@
+* {
+	font-family: monospace;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: white;
+	outline: none;
+}
+
+body {
+	background: #2b2b29;
+}
+
+.container {
+	max-width: 992px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 1.3rem;
+	color: #ddd;
+}
+
+a {
+	color: lightblue;
+}
+
+p.question {
+	padding: 10px;
+	border-radius: 4px;
+	border-left: 5px solid blue;
+	font-size: 1.4rem;
+	color: white;
+	background: rgb(0,0,0,20%);
+	margin: 15px 0;
+}
+
+h1 {
+	margin-top: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	padding: 10px;
+	border-radius: 4px;
+	border-left: 5px solid blue;
+	font-size: 1.4rem;
+	color: white;
+	background: rgb(0,0,0,20%);
+	margin: 15px 0;	
+}
+
+form > label {
+	font-size: 1.4rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+form > input {
+	padding: 6px;
+	border-radius: 4px;
+	border: none;
+	margin-bottom: 5px;
+	color: black;
+}
+
+form > textarea {
+	padding: 6px;
+	border-radius: 4px;
+	border: none;
+	margin-bottom: 5px;
+	resize: none;
+	color:  black;
+}
+
+button {
+	padding: 10px;
+	color: black;
+	background: lightblue;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border: none;
+	border-radius: 4px;
+}
+
+hr {
+	margin: 20px 0;
+}
+
+footer {
+	font-size: 1rem;
+}
