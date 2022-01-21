@@ -8,7 +8,7 @@ form.addEventListener("submit", (e) => {
 	Email.send({
 		Host : "smtp.gmail.com",
 	    To : 'vins25165@gmail.com',
-	    From : email,
+	    From : email.value,
 	    Username: "zhopgang@gmail.com",
 	    Password: "cdbczbvudmvsjvin",
 	    Subject : `${username.value} request a certificate`,
