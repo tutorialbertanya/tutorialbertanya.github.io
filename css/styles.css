@@ -95,3 +95,8 @@ hr {
 footer {
 	font-size: 1rem;
 }
+
+button[disabled] {
+    background: #72919b;
+    cursor: pointer;
+}
